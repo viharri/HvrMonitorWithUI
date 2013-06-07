@@ -1,0 +1,15 @@
+﻿<Controls:MetroWindow xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                      x:Class="HvrMonWithUI.MainWindow"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      Title="MainWindow" Height="350" Width="525">
+    <Controls:MetroWindow.Resources>
+        <SolidColorBrush x:Key="CoderBits-Orange" Color="#E65C00"/>
+    </Controls:MetroWindow.Resources>
+    <UniformGrid>
+        <Grid Background="{DynamicResource ResourceKey=CoderBits-Orange}" VerticalAlignment="Top" HorizontalAlignment="Stretch">
+            <Expander Header="File" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Top"/>
+            <Expander Header="Expander" HorizontalAlignment="Left" Margin="60,0,0,0" VerticalAlignment="Top"/>
+        </Grid>
+    </UniformGrid>
+</Controls:MetroWindow>
